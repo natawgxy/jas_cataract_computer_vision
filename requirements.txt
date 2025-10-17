@@ -1,5 +1,5 @@
-python-3.12
 streamlit
-tensorflow==2.16.1
+tensorflow-cpu==2.16.1
 matplotlib
 numpy
+python-3.12
