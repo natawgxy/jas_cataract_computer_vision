@@ -153,6 +153,7 @@ def grad_cam_for_some_imgs(imgs, model):
         all_grad_cams.append(overlay)
     return all_grad_cams
 
+st.write("TensorFlow version:", tf.__version__)
 st.title("Demo version of the cataract classifier")
 st.markdown("Add photos of eyes taken on your phone")
 st.markdown("If the model determines the cataract class to be immature, add slit-lamp images of eyes")
