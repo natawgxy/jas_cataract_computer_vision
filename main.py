@@ -107,8 +107,8 @@ def overlay_heatmap(heatmap, img_tensor, transparency=0.4):
     return np.clip(res_img, 0.0, 1.0)
 
 #===============================================================
-model_stage_path = os.path.join(os.getcwd(), "stage_hough_preprocess.keras")
-model_locs_path = os.path.join(os.getcwd(), "best_model.keras")
+model_stage_path = "stage_hough_preprocess.keras"
+model_locs_path = "best_model.keras"
 model_stage = load_model_safely(model_stage_path)
 model_locs = load_model_safely(model_locs_path)
 
